@@ -73,5 +73,3 @@
 - Quispe Mejia, Diego
 ### Web Management Professor
 - Julio Jauregui Sotelo
-## License
-This project is licensed under the MIT License.

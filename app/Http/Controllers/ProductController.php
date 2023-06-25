@@ -108,7 +108,7 @@ class ProductController extends Controller
         Product::where('id','=',$id)->update($product);
         $product = Product::findOrFail($id);
         $categoria=$request->category_product;
-        return redirect('/PanelAdministrativo/productos?categoria='.$categoria)
+        return redirect('/chapters/productos?categoria='.$categoria)
             ->with('success', 'Product updated successfully');
     }
 
